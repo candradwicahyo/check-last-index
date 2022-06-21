@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
   
   function message(value) {
     const lastIndex = value.length - 1;
-    return `panjang karakter dari text yang anda tulis adalah ${value.length} dan index terakhir dari text yang anda tulis adalah ${lastIndex}. kenapa bisa begitu? dikarenakan index pertama selalu berawal dari angka 0`;
+    return `panjang karakter dari text yang anda tulis adalah ${value.length} dan index terakhir dari text yang anda tulis adalah ${lastIndex}. kenapa bisa begitu? karena index pertama selalu diawali dari angka 0`;
   }
   
 });
